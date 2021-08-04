@@ -1,0 +1,50 @@
+body {
+    background-color: aqua;
+}
+
+input {
+    padding-top: 5px;
+    margin-bottom: 5px;
+    background-color: blue;
+    color: wheat;
+    font-weight: bold;
+}
+
+input:hover {
+    color: aqua;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    margin: 5px;
+    color: grey;
+}
+
+div {
+    margin: 5% 20% 20% 20%;
+    width: 750px;
+    border: 5px solid greenyellow;
+    padding: 2% 2% 2% 2%;
+    background-color: bisque;
+}
+
+.see:hover {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.see a {
+    text-decoration: none;
+}
+
+h1:hover {
+    font-style: italic;
+    color: yellow;
+    background-color: blueviolet;
+}
+
+footer p {
+    text-align: center;
+}

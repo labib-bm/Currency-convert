@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <script src="convert.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="findFields()">
+
+    <h1>Currency Converter System</h1>
+    
+    <div>
+    <label for="BDT"> <span class="see"><a target="_blank" href="https://en.wikipedia.org/wiki/Bangladeshi_taka">BDT</a>&emsp;&emsp;</span> </label>
+    <input type="text" id="BDT" size="8" value="" onchange="convertbdt()" />
+    <span class="see">&nbsp;৳&emsp;&emsp; (Taka - Currency for Bangladesh)</span>
+
+    </br>
+    <label for="RUP"> <span class="see"><a target="_blank" href="https://en.wikipedia.org/wiki/Rupee">RUP</a>&emsp;&emsp;</span> </label>
+    <input type="text" id="RUP" size="8" value="" onchange="convertrup()" />
+    <span class="see">&nbsp;₹&emsp;&emsp; (Rupee - Currency for India)</span>
+
+    </br>
+    <label for="EUR"> <span class="see"><a target="_blank" href="https://en.wikipedia.org/wiki/Euro">EUR</a>&emsp;&emsp;</span> </label>
+    <input type="text" id="EUR" size="8" value="" onchange="converteur()" />
+    <span class="see">&nbsp;€&emsp;&emsp; (EURO - Currency for France)</span>
+
+
+    </br>
+    <label for="USD"> <span class="see"><a target="_blank" href="https://en.wikipedia.org/wiki/United_States_dollar">USD</a>&emsp;&emsp; </span></label>
+    <input type="text" id="USD" size="8" value="" onchange="convertusd()" />
+    <span class="see">&nbsp;$&emsp;&emsp; (U.S. Dollar - Currency for United States of America)</span>
+
+    </br>
+    <label for="DNR"> <span class="see"><a target="_blank" href="https://en.wikipedia.org/wiki/Dinar">DNR</a>&emsp;&emsp;</span> </label>
+    <input type="text" id="DNR" size="8" value="" onchange="convertdnr()" />
+    <span class="see">&nbsp;د.ك&emsp;&nbsp; (Dinar - Currency for Kuweit)</span>
+    </div>
+
+    <footer>
+        <p>Copyright © 2021 Labib Bin Mohtaram</p>
+    </footer>
+</body>
+
+</html>
